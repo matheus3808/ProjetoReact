@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "name": "projeto 3",
+      "budget": "100",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": null,
+      "services": [
+        {
+          "name": "teste",
+          "cost": "10",
+          "description": "teste",
+          "id": "f93bfc25-a855-4e40-bf1d-d40fd1052b10"
+        },
+        {
+          "id": "edc4b971-5854-4744-a3a7-3d8eded0ccf9"
+        },
+        {
+          "id": "2c11b92f-9482-4228-994b-aaf077c64008"
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
