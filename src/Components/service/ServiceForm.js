@@ -1,12 +1,14 @@
 import styles from '../Project/Project.module.css'
+
 import Input from '../form/Input'
 import SubmitButton from '../form/SubmitButton'
-
+import LinkButton from '../layout/LinkButton'
+import stylesButton from '../pages/ProjetoEdicao.module.css'
 
 import {useState} from 'react'
-import ButtonAddService from './ButtonAddService'
 
-function ServiceForm({handleSubmit,btnText, projectData}){
+
+function ServiceForm({handleSubmit,btnText, projectData,onClick}){
   
     const[service,setService]=useState({})
 
@@ -21,10 +23,14 @@ function ServiceForm({handleSubmit,btnText, projectData}){
     }
 
     
-    
+    function Reload(){
+        window.location.reload()
+       
+    }
 
 
     return(
+        <div>
         <form onSubmit={submit} className={styles.form}>
             <Input
             type="text"
@@ -47,10 +53,12 @@ function ServiceForm({handleSubmit,btnText, projectData}){
             placeholder="Descreva o serviço"
             handleOnChange={handleChange}
             />
-            <SubmitButton  text={btnText}/>
-            <ButtonAddService/>
+            <button  className={stylesButton.btn} onClick={Reload}>adicionar serviço</button>
+            
         </form>
+        
+        </div>
     )
     }
-
+    
 export default ServiceForm

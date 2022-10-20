@@ -142,6 +142,8 @@ function ProjetoEdicao(){
     function toggleServiceForm(){
         setShowServiceForm(!showServiceForm)
     }
+
+    
     return(<>
         {project.name?
         (<div className={styles.project_details}>
@@ -186,9 +188,9 @@ function ProjetoEdicao(){
                         
                     <ServiceForm
                     
-                    handleSubmit={createService}
-                    btnText="Adicionar serviço" 
+                    handleSubmit={createService} 
                     projectData={project}
+                    
                     
                     >
                     

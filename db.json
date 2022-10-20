@@ -10,19 +10,24 @@
       "cost": null,
       "services": [
         {
-          "name": "teste",
-          "cost": "10",
-          "description": "teste",
-          "id": "f93bfc25-a855-4e40-bf1d-d40fd1052b10"
-        },
-        {
-          "id": "edc4b971-5854-4744-a3a7-3d8eded0ccf9"
-        },
-        {
-          "id": "2c11b92f-9482-4228-994b-aaf077c64008"
+          "name": "form",
+          "cost": "500",
+          "description": "contratar um dev Junior para cuidar dos formulários do projeto.",
+          "id": "b52deddb-4743-4e9b-af8c-29f0e2aeebb3"
         }
       ],
       "id": 2
+    },
+    {
+      "name": "Lading Page Bruno",
+      "budget": "10000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": null,
+      "services": [],
+      "id": 3
     }
   ],
   "categories": [

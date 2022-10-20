@@ -1,5 +1,8 @@
 .project_details{
     padding: 2em;
+    width: 100%;
+    
+    
 }
 
 .project_details h1,
@@ -24,7 +27,10 @@
     padding-bottom: 1.2em;
     display:flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
+    
+    
 }
 
 .btn{
@@ -36,6 +42,7 @@
     cursor: pointer;
     max-height: 40px;
     border: none;
+    
 
 }
 
