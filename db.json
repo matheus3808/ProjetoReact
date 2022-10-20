@@ -1,35 +1,5 @@
 {
-  "projects": [
-    {
-      "name": "projeto 3",
-      "budget": "100",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": null,
-      "services": [
-        {
-          "name": "form",
-          "cost": "500",
-          "description": "contratar um dev Junior para cuidar dos formulários do projeto.",
-          "id": "b52deddb-4743-4e9b-af8c-29f0e2aeebb3"
-        }
-      ],
-      "id": 2
-    },
-    {
-      "name": "Lading Page Bruno",
-      "budget": "10000",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": null,
-      "services": [],
-      "id": 3
-    }
-  ],
+  "projects": [],
   "categories": [
     {
       "id": 1,
